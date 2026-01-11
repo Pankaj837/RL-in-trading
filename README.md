@@ -1,8 +1,6 @@
 # RL-in-trading
 
-
-This repository documents my week-by-week progress on the **WiDS: Reinforcement Learning in Trading** project.
-It contains concise weekly reports and solved problems for Weeks 1–3, along with key results and next steps.
+This repository documents my week-by-week progress on the WiDS: Reinforcement Learning in Trading project. It contains concise weekly reports and solved problems for Weeks 1–4, along with key results and next steps, culminating in a final applied RL project in trading.
 
 ## Project goal
 
@@ -20,9 +18,12 @@ RL-in-Trading-WiDS
 ├── Week2
 │   ├── Week2.md
 │   └── solutions
-└── Week3
-    ├── Week3.md
-    └── solutions
+├── Week3
+│   ├── Week3.md
+│   └── solutions
+├── Week4
+│   ├── Week4.md
+│   └── solutions
 ```
 
 Each `WeekX.md` will contain:
@@ -58,15 +59,24 @@ The `solutions/` folder holds compact code files or short notes that implement t
 * Practical notes on extracting and interpreting financial time-series (close, adj close, rolling mean, dividends)
 * Assignment-based exercises from Grokking / course materials
 
+**Week 4 — Reinforcement Learning Trading Agent (Final Project)**
+
+- Built a **custom trading environment** using historical stock price data
+- Implemented a **tabular Q-learning agent** with Buy / Sell / Hold actions
+- Trained the agent using ε-greedy exploration
+- Evaluated performance on unseen data
+- Benchmarked against a **Buy-and-Hold baseline**
+- Analyzed strengths and limitations of tabular RL in financial markets
+
 ## Dependencies (summary)
 
 Common libraries used across weeks (listed here for convenience):
 
 * `numpy`, `pandas`, `matplotlib`
 * `jupyter` (for interactive exploration)
-* (optional, later) `torch` / `gym` for advanced RL experiments
+* `yfinance`
+* `torch` / `gym` for advanced RL experiments
 
-A `requirements.txt` may be provided; install only the packages you need.
 
 ## How to review the work
 
@@ -75,6 +85,6 @@ A `requirements.txt` may be provided; install only the packages you need.
 
 ## Status & next steps
 
-* This repository contains the completed work for Weeks 1, 2, and 3 of the WiDS project.
-* The repository is submitted as a midterm report, and will be updated with further progress as the project continues.
+* This repository contains the completed work for Weeks 1, 2, 3 and 4 of the WiDS project.
+* The repository is submitted as a Final report 
 
