@@ -22,8 +22,8 @@ RL-in-Trading-WiDS
 │   ├── Week3.md
 │   └── solutions
 ├── Week4
-│   ├── Week4.md
-│   └── solutions
+    ├── Week4.md
+    └── solutions
 ```
 
 Each `WeekX.md` will contain:
