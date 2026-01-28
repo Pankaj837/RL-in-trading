@@ -10,8 +10,7 @@ Build a solid practical understanding of reinforcement learning and related tool
 
 ```
 RL-in-Trading-WiDS
-├── README.md                
-├── requirements.txt        
+├── README.md                        
 ├── Week1
 │   ├── Week1.md             
 │   └── solutions          
